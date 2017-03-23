@@ -10,7 +10,7 @@ const ImageDetail = (props) => {
     </div>
     <div className="media-body">
       <h4>{props.image.title}</h4>
-      <p>{props.image.description}</p>
+      <p>{props.image.description} </p>
       <ImageScore ups={props.image.ups} downs={props.image.downs} />
     </div>
     </li>
